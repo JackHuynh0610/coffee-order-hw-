@@ -37,10 +37,10 @@ public class OrderRepository {
                     beverage = new Mocha(beverage);
                     break;
                 case "soy":
-                    beverage = new Soy();
+                    beverage = new Soy(beverage);
                     break;
                 case "whip":
-                    beverage = new Whip();
+                    beverage = new Whip(beverage);
                     break;
                 default:
                     throw new Exception("Condiment type '%s' is not valid".formatted(condiment));
