@@ -15,6 +15,15 @@ public class OrderRepository {
             case "dark roast":
                 beverage = new DarkRoast();
                 break;
+            case "decaf":
+                beverage = new Decaf();
+                break;
+            case "espresso":
+                beverage = new Espresso();
+                break;
+            case "house blend":
+                beverage = new HouseBlend();
+                break;
         }
         if (beverage == null) {
             throw new Exception("Beverage type '%s' is not valid!".formatted(order.beverage()));

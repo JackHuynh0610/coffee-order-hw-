@@ -1,0 +1,1 @@
+Receipt[description=Dark roast, Milk, cost=2.39, id=0]Receipt[description=House Blend, Milk, Mocha, cost=2.35, id=0]Receipt[description=House Blend, cost=1.65, id=1]Receipt[description=Soy, cost=0.27, id=2]Receipt[description=House Blend, cost=1.65, id=3]Receipt[description=House Blend, Mocha, Milk, cost=2.3500001, id=4]Receipt[description=Dark roast, Milk, cost=2.39, id=5]
