@@ -15,9 +15,9 @@ public class BeverageTest {
         Whip whipEspresso = new Whip(soyEspresso);
         assert(whipEspresso.cost() == 0.25F + soyEspresso.cost());
         
-        assert(beverage2.cost() == 0.89F);
+        assert(beverage2.cost() == 1.65F);
         Milk milkHouseBlend = new Milk(beverage2);
-        assert(milkHouseBlend.cost() == 0.4F + 0.89F);
+        assert(milkHouseBlend.cost() == 0.4F + 1.65F);
         Soy soyHouseBlend = new Soy(milkHouseBlend);
         assert(soyHouseBlend.cost() == 0.27F + milkHouseBlend.cost());
         Whip whipHouseBlend = new Whip(soyHouseBlend);
