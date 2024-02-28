@@ -13,7 +13,7 @@ public class Whip extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return "Whip";
+        return beverage.getDescription() + ", Whip";
     }
     
 }
